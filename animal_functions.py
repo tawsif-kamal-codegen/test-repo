@@ -1,11 +1,11 @@
-def make_animal_sound(animal):
+def make_animal_sound(big_dawgs):
     sounds = {
         'cat': 'meow',
         'dog': 'woof',
         'cow': 'moo',
         'duck': 'quack'
     }
-    return sounds.get(animal.lower(), 'unknown sound')
+    return sounds.get(big_dawgs.lower(), 'unknown sound')
 
 def get_animal_legs(animal):
     legs = {
